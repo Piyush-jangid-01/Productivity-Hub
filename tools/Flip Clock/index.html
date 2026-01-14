@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Flip Clock</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <div class="clock">
-    <div class="flip-unit">
-      <div class="flip-card" id="hour">00</div>
-      <span>Hours</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A stylish flip clock to keep track of time." />
+    <title>Flip Clock</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>Flip-Clock</h1>
+      </div>
+      <div class="clock">
+        <div class="flip-unit">
+          <div class="flip-card" id="hour">00</div>
+          <span>Hours</span>
+        </div>
+        <div class="flip-unit">
+          <div class="flip-card" id="minute">00</div>
+          <span>Minutes</span>
+        </div>
+        <div class="flip-unit">
+          <div class="flip-card" id="second">00</div>
+          <span>Seconds</span>
+        </div>
+        <div class="flip-unit ampm">
+          <div
+            class="flip-card"
+            id="ampm"
+            style="-webkit-text-stroke-width: 1.1px"
+          >
+            AM
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="flip-unit">
-      <div class="flip-card" id="minute">00</div>
-      <span>Minutes</span>
-    </div>
-    <div class="flip-unit">
-      <div class="flip-card" id="second">00</div>
-      <span>Seconds</span>
-    </div>
-    <div class="flip-unit ampm">
-      <div class="flip-card" id="ampm">AM</div>
-    </div>
-  </div>
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
