@@ -1,22 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Changa+One:ital@0;1&display=swap");
+
 body {
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
-  background: #f4f4f4;
+  background: linear-gradient(135deg, #fee6f0 25%, transparent 25%) -50px 0,
+                linear-gradient(225deg, #fee6f0 25%, transparent 25%) -50px 0,
+                linear-gradient(315deg, #fee6f0 25%, transparent 25%),
+                linear-gradient(45deg, #fee6f0 25%, transparent 25%);
+                background-size: 100px 100px ;
   padding: 50px;
 }
 
 .container {
-  background: white;
+  background: azure;
   border-radius: 10px;
   width: 100%;
   max-width: 400px;
   padding: 30px;
-  box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+  box-shadow: #c1bfff56 4px 4px 8px, inset #c1bfff58 -4px -4px 8px,
+    inset #ffffff 4px 4px 8px, #ffffff -4px -4px 8px;
 }
 h1 {
   text-align: center;
   margin-bottom: 20px;
+  font-family: "Changa One", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
 }
 
 .input-section {
