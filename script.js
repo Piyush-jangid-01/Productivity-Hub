@@ -8,4 +8,9 @@ document.getElementById("flip-clock").addEventListener("click", () => {
 
 document.getElementById("color-combo").addEventListener("click", () => {
   window.location.href = "tools/Color Combo/index.html";
+
+});
+
+ocument.getElementById("expense").addEventListener("click", () => {
+  window.location.href = "tools/Expense Tracker/index.html";
 });
