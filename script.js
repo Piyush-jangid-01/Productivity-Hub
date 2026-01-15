@@ -11,6 +11,7 @@ document.getElementById("color-combo").addEventListener("click", () => {
 
 });
 
-ocument.getElementById("expense").addEventListener("click", () => {
+document.getElementById("expense").addEventListener("click", () => {
   window.location.href = "tools/Expense Tracker/index.html";
 });
+
