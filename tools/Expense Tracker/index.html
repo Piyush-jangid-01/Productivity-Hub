@@ -20,9 +20,10 @@
       <div class="header-controls">
         <div class="date-picker">
           <i class="fas fa-calendar"></i>
-          16 Jan 2026
+          <span id="currentDate"></span>
         </div>
-        <div class="export-btn">
+
+        <div class="export-btn" onclick="exportToCSV()">
           <i class="fas fa-download"></i>
           Export
         </div>
@@ -36,7 +37,9 @@
             <h3 class="card-title">Monthly Income</h3>
             <button class="card-menu"><i class="fas fa-ellipsis-v"></i></button>
           </div>
-          <div class="amount income-amount">$0.00</div>
+          <div class="amount income-amount" id="amount-income-amount">
+            $0.00
+          </div>
           <div class="change">
             <i class="fas fa-arrow-up"></i>
             0% vs last month
@@ -47,7 +50,9 @@
             <h3 class="card-title">Monthly Expenses</h3>
             <button class="card-menu"><i class="fas fa-ellipsis-v"></i></button>
           </div>
-          <div class="amount expense-amount">$0.00</div>
+          <div class="amount expense-amount" id="amount-expense-amount">
+            $0.00
+          </div>
           <div class="change">
             <i class="fas fa-arrow-up"></i>
             0% vs last month
@@ -81,39 +86,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Jan 14, 2025</td>
-              <td>Subscription</td>
-              <td>$440.00</td>
-              <td><span class="status-success">Success</span></td>
-              <td>
-                <button class="action-btn">
-                  <i class="fas fa-ellipsis-h"></i>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Jan 10, 2025</td>
-              <td>Transfer</td>
-              <td>$440.00</td>
-              <td><span class="status-success">Success</span></td>
-              <td>
-                <button class="action-btn">
-                  <i class="fas fa-ellipsis-h"></i>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <td>Jan 8, 2025</td>
-              <td>Transfer</td>
-              <td>$440.00</td>
-              <td><span class="status-success">Success</span></td>
-              <td>
-                <button class="action-btn">
-                  <i class="fas fa-ellipsis-h"></i>
-                </button>
-              </td>
-            </tr>
+            <!-- Transactions will be dynamically added here -->
           </tbody>
         </table>
       </div>
