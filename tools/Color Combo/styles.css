@@ -13,7 +13,6 @@ body{
 
     .container{
       padding: 20px;
-      border: 1.5px solid #c1bfff91;
       border-radius: 20px;
       display: flex;
       justify-content: center;
@@ -51,3 +50,4 @@ body{
 #btn:hover {
   background-color: #daffffbe;
 }
+
