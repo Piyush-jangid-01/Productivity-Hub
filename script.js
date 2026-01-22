@@ -13,3 +13,7 @@ document.getElementById("color-combo").addEventListener("click", () => {
 document.getElementById("expense").addEventListener("click", () => {
   window.location.href = "tools/Expense Tracker/index.html";
 });
+
+document.getElementById("pomodoro").addEventListener("click", () => {
+  window.location.href = "tools/Pomodoro Timer/index.html";
+});
