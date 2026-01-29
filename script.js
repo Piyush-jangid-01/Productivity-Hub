@@ -22,10 +22,7 @@ document.getElementById("news").addEventListener("click", () => {
   window.location.href = "tools/News Feed/index.html";
 });
 
-document.getElementById("notes").addEventListener("click", () => {
-  window.location.href = "tools/Notes App/index.html";
-});
-
 document.getElementById("calculator").addEventListener("click", () => {
   window.location.href = "tools/Calculator/index.html";
 }
+
