@@ -18,6 +18,10 @@ body {
 header {
   background-color: #ffffff;
   border-bottom: 1px solid #e3e8f0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
   display: flex;
   justify-content: center;
 }
@@ -63,8 +67,9 @@ header {
   transform: scale(1.05);
 }
 
-.nav-item:active {
+.nav-item.active {
   color: #f38028;
+  transform: scale(1.15);
 }
 
 .search-bar {
@@ -111,7 +116,7 @@ header {
 }
 
 main {
-  padding-block: 30px;
+  padding-block: 100px;
 }
 
 .cards-container {
