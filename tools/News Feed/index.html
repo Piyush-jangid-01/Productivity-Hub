@@ -22,14 +22,15 @@
         </a>
         <div class="nav-links">
           <ul>
-            <li class="hover-link nav-item">IPL</li>
-            <li class="hover-link nav-item">Finance</li>
-            <li class="hover-link nav-item">Poltics</li>
+            <li class="hover-link nav-item" id="ipl" onClick ="onNavItemClick('ipl')">IPL</li>
+            <li class="hover-link nav-item" id="finance" onClick ="onNavItemClick('finance')">Finance</li>
+            <li class="hover-link nav-item" id="politics" onClick ="onNavItemClick('politics')">Politics</li>
+            <li class="hover-link nav-item" id="technology" onClick ="onNavItemClick('technology')">Technology</li>
           </ul>
         </div>
         <div class="search-bar">
-          <input type="text" class="news-input" placeholder="e.g. Science" />
-          <button class="search-button">Search</button>
+          <input type="text" class="news-input" id="search-text" placeholder="e.g. Science" />
+          <button class="search-button" id="search-button">Search</button>
         </div>
       </div>
     </header>
