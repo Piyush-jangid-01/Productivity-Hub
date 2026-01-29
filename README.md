@@ -84,6 +84,6 @@ Distributed under the MIT License.
 Piyush Jangid
 Full-Stack Developer | B.Tech CSE
 
-🔗 LinkedIn: https://linkedin.com/in/piyush-jangid-ba8744377
+🔗 LinkedIn: www.linkedin.com/in/piyusshhjangid
 
 📂 GitHub: https://github.com/Piyush-jangid-01
