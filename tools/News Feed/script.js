@@ -12,6 +12,8 @@ async function fetchNews(query) {
 }
 
 function bindData(articles) {
+  if(!articles) return;
+  
   const cardsContainer = document.getElementById("cards-container");
   const newsCardTemplate = document.getElementById("template-news-card");
 
