@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News-Feed</title>
+    <meta
+      name="description"
+      content="Stay updated with the latest news and articles from around the world."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="#index.html">
+          <div class="logo">
+            <div class="logo1">
+              <h1>News-Feed!</h1>
+            </div>
+          </div>
+        </a>
+        <div class="nav-links">
+          <ul>
+            <li class="hover-link nav-item">IPL</li>
+            <li class="hover-link nav-item">Finance</li>
+            <li class="hover-link nav-item">Poltics</li>
+          </ul>
+        </div>
+        <div class="search-bar">
+          <input type="text" class="news-input" placeholder="e.g. Science" />
+          <button class="search-button">Search</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="cards-container" class="cards-container container flex">
+        
+      </div>
+    </main>
+
+    <template id="template-news-card">
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="https://imgs.search.brave.com/VjHU2sB3mfFqMsd2Ljz2II_h-ikysJ9Qyb-8JkaEdI0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMjIy/NzE1NTUyMi9waG90/by9lbGVnYW50LW11/bHRpLWNvbG9yZWQt/YWJzdHJhY3Qtc2hh/cGVzLndlYnA_YT0x/JmI9MSZzPTYxMng2/MTImdz0wJms9MjAm/Yz1OSDE5U2Fva0cz/eVFIWDlWeTFJN3Ni/ZDIwTDdicmU5ZkVV/LUYyLVVxYlEwPQ"
+              alt="news-image"
+              id="news-img"
+              style="height: 200px;  width: 400px;"
+            />
+          </div>
+          <div class="card-content">
+            <h3 id="news-title">This is the Title</h3>
+            <h6 class="news-source" id="news-source">End Gadget 26/01/2026</h6>
+            <p class="news-desc" id="news-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
+              modi dolorum vel nesciunt soluta quisquam accusamus a tempora
+              laboriosam doloremque!
+            </p>
+          </div>
+        </div>
+    </template>
+    <script src="script.js"></script>
+  </body>
+</html>
